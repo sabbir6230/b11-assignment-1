@@ -125,7 +125,7 @@ body {
 
 /* vision section style */
 .vision {
-    margin-bottom: 32px;
+    margin-bottom: 40px;
 }
 
 .vision-items-container {
@@ -227,4 +227,51 @@ body {
 
 .vission-footer-subtitle {
     color: rgba(14, 14, 14, 0.6);
+}
+
+/* opinion section style */
+.opinion {
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.opinion-table {
+    background-color: #fff;
+    padding: 32px;
+    border-radius: 16px;
+}
+
+.opinion-collaps-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-bottom: none;
+    background-color: #C6E4D6;
+}
+
+.left-collaps {
+    margin-left: 20px;
+}
+
+.right-collaps {
+    margin-right: 20px;
+}
+
+.opinion-table {
+    width: 100%;
+}
+
+.opinion-border {
+    border-collapse: collapse;
+}
+
+.opinion-border tr td {
+    padding: 10px 20px;
+    width: 100%;
+}
+
+.opinion-border select {
+    padding: 10px 20px;
+    background-color: #C6E4D6;
 }
