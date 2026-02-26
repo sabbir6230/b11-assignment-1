@@ -1,6 +1,6 @@
 .fira-sans {
-  font-family: "Fira Sans", sans-serif;
-  font-style: normal;
+    font-family: "Fira Sans", sans-serif;
+    font-style: normal;
 }
 
 /* Shared css */
@@ -9,12 +9,15 @@
     border-radius: 8px;
     color: #fff;
     text-align: center;
+    border: none;
 }
+
 .btn-secondary {
     font-weight: 600;
     color: #fff;
     padding: 13px 26px;
     text-align: center;
+    border: none;
 }
 
 .font-primary {
@@ -52,30 +55,35 @@ body {
     font-weight: 600;
 }
 
-/* banner style */
+/* banner section style */
 .banner {
     background-color: #C6E4D6;
     border-radius: 24px;
 }
+
 .banner-container {
     display: flex;
     padding: 80px 60px;
     justify-content: space-between;
 }
+
 .banner-content {
     width: 622px;
 }
+
 .banner-sub-title {
     font-size: 24px;
     font-weight: 400;
     color: rgba(14, 14, 14, 0.5);
 }
+
 .banner-title {
     font-size: 56px;
     font-weight: bold;
     color: #0E0E0E;
 }
-.banner-btn{
+
+.banner-btn {
     font-size: 18px;
     color: #fff;
     font-weight: 400;
@@ -85,14 +93,16 @@ body {
     border: none;
 }
 
-/* pillars style */
+/* pillars section style */
 .pillars {
     margin: 80px 0;
 }
-.pillars-container{
+
+.pillars-container {
     display: flex;
     gap: 24px;
 }
+
 .pillar {
     width: 300px;
     background-color: #fff;
@@ -100,13 +110,121 @@ body {
     padding: 24px;
     border: 1px solid rgba(14, 14, 14, 0.15);
 }
+
 .pillar-name {
     font-size: 20px;
     font-weight: bold;
     color: #0E0E0E;
 }
+
 .pillar-description {
     font-size: 16px;
     line-height: 24px;
     color: rgba(14, 14, 14, 0.7);
+}
+
+/* vision section style */
+.vision {
+    margin-bottom: 32px;
+}
+
+.vision-items-container {
+    display: flex;
+    gap: 24px;
+    margin: 32px 0;
+}
+
+.vision-item {
+    width: 410px;
+    padding: 32px;
+    border-radius: 16px;
+    position: relative;
+}
+
+.vision-description {
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.vision-item-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+
+.vision-item-description {
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.vision-first-item {
+    background-color: rgba(84, 144, 245, 0.2);
+    border: 1px solid rgba(84, 144, 245, 0.2);
+}
+
+
+.vision-item-btn {
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+.vision-first-item .vision-item-btn {
+    background-color: #5490F5;
+    transition: .3s;
+}
+
+.vision-first-item .vision-item-btn:hover {
+    background-color: #04f718;
+    color: black;
+}
+
+.vision-second-item {
+    background-color: #C6E4D6;
+}
+
+.vision-second-item .vision-item-btn {
+    background-color: #09A15C;
+    transition: .3s;
+}
+
+.vision-second-item .vision-item-btn:hover {
+    background-color: #04f718;
+    color: black;
+}
+
+.vision-third-item {
+    background-color: #F7EBCF;
+}
+
+.vision-third-item .vision-item-btn {
+    background-color: #FFC239;
+    transition: .3s;
+}
+
+.vision-third-item .vision-item-btn:hover {
+    background-color: #04f718;
+    color: black;
+}
+
+
+.vision-footer {
+    background-color: #fff;
+    padding: 25px 24px;
+    border-radius: 16px;
+}
+
+.vision-footer-description {
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.vission-footer-title {
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.vission-footer-subtitle {
+    color: rgba(14, 14, 14, 0.6);
 }
