@@ -10,6 +10,8 @@
     color: #fff;
     text-align: center;
     border: none;
+    background-color: #006A50;
+    cursor: pointer;
 }
 
 .btn-secondary {
@@ -277,6 +279,9 @@ body {
 }
 
 /* Satellite section style */
+.satellite {
+    margin-bottom: 80px;
+}
 .satellite-description {
     line-height: 24px;
     color: rgba(14, 14, 14, 0.7);
@@ -322,10 +327,73 @@ body {
     background-color: #09A15C;
 }
 
-.satellite-bottom {
+.satellite-middle {
     margin: 24px 0;
 }
 
-.satellite-bottom .satellite-container {
+.satellite-middle .satellite-container {
     flex-direction: row-reverse;
+}
+
+/* Donate section style */
+.donate {
+    margin-bottom: 80px;
+}
+.donate-title {
+    text-align: center;
+}
+.donate-description {
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+    text-align: center;
+}
+
+.donate-item {
+    padding: 30px 60px;
+    border-radius: 16px;
+    background-color: #fff;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.active-bg-color{
+    background-color: #C6E4D6;
+}
+
+.donate-item:hover {
+    background-color: #FFC239;
+}
+
+.donate-item h3 {
+    font-size: 40px;
+    color: rgba(14, 14, 14, 0.8);
+}
+.donate-items-container {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.donate input {
+    width: 92.5%;
+    padding: 20px;
+    border: none;
+    text-align: center;
+    color: rgba(14, 14, 14, 0.30)
+}
+.other-donate {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+}
+.other-donate input[placeholder] {
+    font-size: 20px;
+}
+
+.donate-btn {
+    text-align: center;
+    margin-top: 32px;
+}
+
+.donate-btn button {
+    background-color: #006A50;
 }
