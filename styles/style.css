@@ -22,3 +22,32 @@
     font-weight: bold;
     color: #0E0E0E;
 }
+
+/* body style */
+body {
+    background-color: #F1F1F3;
+    width: 1280px;
+    margin: 0 auto;
+}
+
+/* nav style */
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-left-side h3 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+
+.nav-right-side button {
+    padding: 15px 30px;
+    border-radius: 8px;
+    color: #006A50;
+    border: 1px solid #006A50;
+    font-size: 18px;
+    font-weight: 600;
+}
