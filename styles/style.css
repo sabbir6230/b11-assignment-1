@@ -1,0 +1,24 @@
+.fira-sans {
+  font-family: "Fira Sans", sans-serif;
+  font-style: normal;
+}
+
+/* Shared css */
+.btn-primary {
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: #fff;
+    text-align: center;
+}
+.btn-secondary {
+    font-weight: 600;
+    color: #fff;
+    padding: 13px 26px;
+    text-align: center;
+}
+
+.font-primary {
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
