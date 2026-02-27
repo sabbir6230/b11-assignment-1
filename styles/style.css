@@ -282,6 +282,7 @@ body {
 .satellite {
     margin-bottom: 80px;
 }
+
 .satellite-description {
     line-height: 24px;
     color: rgba(14, 14, 14, 0.7);
@@ -295,34 +296,43 @@ body {
     align-items: center;
     gap: 32px;
 }
+
 .satellite-image {
     border-radius: 24px;
 }
-.satellite-content-title  {
+
+.satellite-content-title {
     font-size: 32px;
     font-weight: bold;
 }
+
 .satellite-content {
     margin-bottom: 50px;
 }
+
 .satellite-content-img {
     width: 135px;
 }
+
 .satellite-content-sub-title .satellite-content-description {
     line-height: 24px;
     color: rgba(14, 14, 14, 0.7);
 }
+
 .satellite-content-sub-title {
     margin-top: 12px;
 }
+
 .satellite-content-sub-title span {
     margin-right: 12px;
 }
+
 .satellite-btn {
     background-color: #006A50;
     transition: 0.3s;
     cursor: pointer;
 }
+
 .satellite-btn:hover {
     background-color: #09A15C;
 }
@@ -339,9 +349,11 @@ body {
 .donate {
     margin-bottom: 80px;
 }
+
 .donate-title {
     text-align: center;
 }
+
 .donate-description {
     line-height: 24px;
     color: rgba(14, 14, 14, 0.7);
@@ -355,7 +367,8 @@ body {
     transition: 0.4s;
     cursor: pointer;
 }
-.active-bg-color{
+
+.active-bg-color {
     background-color: #C6E4D6;
 }
 
@@ -367,6 +380,7 @@ body {
     font-size: 40px;
     color: rgba(14, 14, 14, 0.8);
 }
+
 .donate-items-container {
     display: flex;
     gap: 24px;
@@ -380,11 +394,13 @@ body {
     text-align: center;
     color: rgba(14, 14, 14, 0.30)
 }
+
 .other-donate {
     margin-top: 32px;
     display: flex;
     justify-content: center;
 }
+
 .other-donate input[placeholder] {
     font-size: 20px;
 }
@@ -406,14 +422,17 @@ body {
     margin-bottom: 160px;
     border-radius: 24px;
 }
+
 .subscribe-container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .subscribe-title {
     text-align: center;
 }
+
 .subscribe-description {
     line-height: 24px;
     color: rgba(14, 14, 14, 0.7);
@@ -424,7 +443,7 @@ body {
     display: flex;
 }
 
-.subscribe-btn> input {
+.subscribe-btn>input {
     padding: 18px;
     width: 520px;
     border: none;
@@ -432,7 +451,8 @@ body {
     border-bottom-left-radius: 16px;
     outline: none;
 }
-.s-btn> input{
+
+.s-btn>input {
     width: 90px;
     padding: 18px;
     background-color: #006A50;
@@ -445,4 +465,30 @@ body {
 
 .subscribe-spam {
     color: rgba(14, 14, 14, 0.7);
+}
+
+/* footer section style */
+
+footer {
+    background-color: #fff;
+    padding: 50px 240px;
+}
+
+.footer-content {
+    font-size: 32px;
+    font-weight: bold;
+    color: #0E0E0E;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.footer-container hr {
+    margin-bottom: 32px;
+    border-top: 1px solid rgba(14, 14, 14, 0.1);
+}
+
+.footer-icon {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
 }
